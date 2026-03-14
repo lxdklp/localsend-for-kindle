@@ -1,0 +1,28 @@
+{
+	"items": [
+	{
+		"name": "LocalSend",
+		"priority": 1,
+		"items": [
+		{
+            "name": "Start LocalSend",
+            "priority": 1,
+            "action": "bin/start.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "Stop LocalSend",
+            "priority": 2,
+            "action": "bin/stop.sh",
+            "exitmenu": false
+		},
+		{
+            "name": "LocalSend Status",
+            "priority": 3,
+            "action": "bin/status.sh",
+            "exitmenu": false
+		}
+		]
+	}
+	]
+}

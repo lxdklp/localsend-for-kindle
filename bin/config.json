@@ -1,0 +1,14 @@
+{
+    "alias": "",
+    "port": 53317,
+    "http": false,
+    "dest": "/mnt/us/localsend",
+    "book_dest": "/mnt/us/documents",
+    "book_extensions": [".azw3", ".mobi", ".kfx", ".pdf", ".txt", ".prc"],
+    "pin": "1234",
+    "device_model": "amazon",
+    "device_type": "mobile",
+    "announce_interval": 5,
+    "session_timeout": 600,
+    "chunk_size": 65536
+}
