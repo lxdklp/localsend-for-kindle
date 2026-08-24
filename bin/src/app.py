@@ -50,6 +50,7 @@ class LocalSendApp:
             ctx = ssl.create_default_context()
             ctx.check_hostname = False
             ctx.verify_mode = ssl.CERT_NONE
+            ctx.load_cert_chain(cert_path, key_path)
             self.client_ssl: Union[ssl.SSLContext, bool] = ctx
         else:
             self.device.fingerprint = secrets.token_hex(16)
